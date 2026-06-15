@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-H">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Clínica Dental Equinoccial | Alta Odontología en Quito</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+        }
+
+        .bg-premium {
+            background: radial-gradient(circle at top right, #f8fafc, #ffffff);
+        }
+
+        .img-card {
+            transition: transform 0.5s ease;
+        }
+
+        .img-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-slate-900">
+
+    <!-- NAVBAR -->
+    <nav class="fixed w-full z-50 glass border-b border-slate-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-extrabold tracking-tighter text-slate-900">
+                EQUINOCCIAL <span class="text-blue-800">DENTAL</span>
+            </div>
+            <a href="https://wa.me/59996127730"
+                class="bg-blue-800 text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-blue-900 transition-all shadow-md">Agendar
+                Cita</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-premium overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="text-left">
+                    <div
+                        class="inline-flex items-center gap-2 bg-blue-50 text-blue-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-blue-100">
+                        ✨ Especialistas con Formación Internacional
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] tracking-tight">
+                        Liderando la <span class="text-blue-800">Odontología de Élite</span> en Quito.
+                    </h1>
+                    <p class="mt-8 text-xl text-slate-600 leading-relaxed max-w-xl">
+                        Fusionamos la precisión de la implantología avanzada y la ortodoncia invisible para crear
+                        sonrisas funcionales y estéticas.
+                    </p>
+                    <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                        <a href="https://wa.me/59996127730"
+                            class="px-8 py-4 bg-slate-900 text-white font-bold rounded-2xl hover:bg-slate-800 transition-all text-center shadow-xl">Solicitar
+                            Consulta Especializada</a>
+                        <a href="#servicios"
+                            class="px-8 py-4 bg-white text-slate-700 font-semibold rounded-2xl border border-slate-200 hover:bg-slate-50 transition-all text-center">Ver
+                            Especialidades</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div
+                        class="relative rounded-3xl overflow-hidden shadow-2xl border-[12px] border-white transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                        <img src="img/hero.jpg" alt="Clinica Equinoccial" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-4xl font-extrabold text-slate-900 sm:text-5xl tracking-tight">Especialidades de <span
+                        class="text-blue-800">Alta Gama</span></h2>
+                <p class="mt-4 text-slate-500 text-lg">Tratamientos complejos realizados por posgradistas nacionales e
+                    internacionales.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
+                    <div class="h-64 overflow-hidden bg-slate-100">
+                        <img src="img/implantes.jpg" class="w-full h-full object-cover img-card" alt="Implantes">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-800 transition-colors">Implantología
+                            Avanzada</h3>
+                        <p class="text-slate-600">Técnicas de vanguardia como "All on 4" para la reposición total de
+                            piezas dentales.</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
+                    <div class="h-64 overflow-hidden bg-slate-100">
+                        <img src="img/ortodoncia.jpg" class="w-full h-full object-cover img-card" alt="Ortodoncia">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-800 transition-colors">Ortodoncia
+                            Invisible</h3>
+                        <p class="text-slate-600">Especialistas en Invisalign y ortodoncia de autoligado para resultados
+                            estéticos.</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
+                    <div class="h-64 overflow-hidden bg-slate-100">
+                        <img src="img/endodoncia.jpg" class="w-full h-full object-cover img-card" alt="Endodoncia">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-800 transition-colors">Endodoncia
+                            Especializada</h3>
+                        <p class="text-slate-600">Salvando la pieza dental mediante la eliminación precisa de la
+                            infección pulpar.</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
+                    <div class="h-64 overflow-hidden bg-slate-100">
+                        <img src="img/maxilo.jpg" class="w-full h-//full object-cover img-card" alt="Maxilofacial">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-800 transition-colors">Cirugía
+                            Maxilofacial</h3>
+                        <p class="text-slate-600">Cirujanos expertos en terceros molares y regeneración de hueso
+                            maxilar.</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
+                    <div class="h-64 overflow-hidden bg-slate-100">
+                        <img src="img/general.jpg" class="w-full h-full object-cover img-card" alt="Diseño Sonrisa">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-800 transition-//colors">Diseño de
+                            Sonrisa</h3>
+                        <p class="text-//slate-600">Estética dental basada en la armonía facial y carillas de alta
+                            calidad.</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
+                    <div class="h-64 overflow-hidden bg-slate-100">
+                        <img src="img/diseno.jpg" class="w-full h-full object-cover img-card" alt="General">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-800 transition-colors">Odontopediatría
+                        </h3>
+                        <p class="text-slate-//600">Atención especializada para los más pequeños en un entorno seguro y
+                            amable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IA SECTION -->
+    <section class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-blue-400 font-bold uppercase text-sm tracking-widest">Innovación Aizly IA</span>
+                    <h2 class="text-4xl lg:text-6xl font-extrabold mt-6 leading-tight">Atención Inteligente <br><span
+                            class="text-blue-400">en Tiempo Real</span></h2>
+                    <p class="mt-8 text-slate-400 text-lg leading-relaxed">
+                        Hemos implementado un Asistente Dental con IA que resuelve dudas sobre Invisalign, implantes y
+                        agenda citas las 24hs.
+                    </p>
+                    <a href="https://sonrisaok.vercel.app/" target="_blank"
+                        class="mt-10 inline-block px-8 py-4 bg-blue-800 text-white font-bold rounded-2xl hover:bg-blue-700 transition-all">Probar
+                        Asistente IA</a>
+                </div>
+                <div class="relative">
+                    <div
+                        class="bg-white p-4 rounded-[2.5rem] shadow-2xl border-[8px] border-slate-800 max-w-sm mx-auto transform rotate-2">
+                        <div class="bg-slate-100 rounded-2xl p-4 h-[400px] overflow-hidden flex flex-col">
+                            <div class="flex items-center gap-2 mb-4">
+                                <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                                <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                                <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                            </div>
+                            <div class="space-y-3 overflow-y-auto">
+                                <div class="bg-blue-800 text-white p-3 rounded-2xl rounded-tl-none text-xs">Hola, soy la
+                                    IA de Equinoccial Dental. ¿En qué puedo ayudarte?</div>
+                                <div
+                                    class="bg-slate-200 p-3 rounded-2xl rounded-tr-none text-xs text-slate-700 ml-auto w-3/4 text-right">
+                                    ¿Hacen ortodoncia invisible?</div>
+                                <div class="bg-blue-800 text-white p-3 rounded-2xl rounded-tl-none text-xs w-3/4">Sí,
+                                    somos especialistas en Invisalign. ¿Te gustaría agendar una evaluación?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white border-t border-slate-100 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-2xl font-extrabold tracking-tighter text-slate-900 mb-6">
+                EQUINOCCIAL <span class="text-blue-800">DENTAL</span>
+            </div>
+            <p class="text-slate-500 mb-8">San Salvador E7-174 y Pradera, Quito - Ecuador</p>
+            <div class="flex justify-center gap-6 text-sm font-medium text-slate-400">
+                <span>📞 0996127730</span>
+                <span>📍 Quito, Ecuador</span>
+            </div>
+            <div class="mt-12 text-xs text-slate-300 italic">
+                Desarrollado por <span class="text-blue-500 font-bold">Aizly Web</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING BOT -->
+    <a href="https://sonrisaok.vercel.app/" target="_blank"
+        class="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-1 hover:scale-105 transition-all">
+        <div class="w-16 h-16 bg-blue-800 rounded-full shadow-2xl flex items-center justify-center">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="w-10 h-10">
+                <path
+                    d="M32 7 C22 7 14 13 14 23 C14 29 16 33 17 39 C18 45 19 57 23 57 C27 57 27 47 32 47 C37 47 37 57 41 57 C45 57 46 45 47 39 C48 33 50 29 50 23 C50 13 42 7 32 7 Z"
+                    fill="white" />
+                <path d="M22 13 C19 16 17 20 17 24" stroke="rgba(255,255,255,0.45)" stroke-width="2.5"
+                    stroke-linecap="round" fill="none" />
+                <circle cx="26" cy="25" r="2.5" fill="#1e40af" />
+                <circle cx="38" cy="25" r="2.5" fill="#1e40af" />
+                <path d="M26 33 Q32 38 38 33" stroke="#1e40af" stroke-width="2" stroke-linecap="round" fill="none" />
+                <rect x="29" y="3" width="6" height="2.5" rx="1.25" fill="#1e40af" />
+                <rect x="31" y="1" width="2.5" height="6" rx="1.25" fill="#1e40af" />
+            </svg>
+        </div>
+        <span
+            class="bg-blue-800 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-md whitespace-nowrap">Asistente
+            24hs</span>
+    </a>
+</body>
+
+</html>
